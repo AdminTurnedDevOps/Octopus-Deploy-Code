@@ -19,5 +19,5 @@ steps:
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
-    script: 'Write-Host "$(Hello)"'
+    script: 'Write-Host "$(Hello)" Tester'
     pwsh: true
